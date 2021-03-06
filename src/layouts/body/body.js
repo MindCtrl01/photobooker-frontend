@@ -4,7 +4,7 @@ function Body() {
   return (
     <div>
       <p>Body Here</p>
-      <p>close on dt test test</p>
+      <p>close without permission</p>
     </div>
   )
 }
