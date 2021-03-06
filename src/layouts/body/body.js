@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function Body() {
   return (
     <div>
-      <p>dafsfsadfsadf Here</p>
+      <p>Body Here</p>
     </div>
   );
 }
