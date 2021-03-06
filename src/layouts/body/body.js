@@ -4,7 +4,7 @@ function Body() {
   return (
     <div>
       <p>Body Here</p>
-      <p>close di</p>
+      <p>close on dt</p>
     </div>
   )
 }
