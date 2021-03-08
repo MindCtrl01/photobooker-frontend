@@ -1,4 +1,4 @@
-const HomePage = React.lazy(() => import('./../pages/index'));
+import HomePage from "../pages/homepage/homepage";
 const routes = [
     {
         path: "/",
