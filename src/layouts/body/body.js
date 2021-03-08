@@ -6,7 +6,7 @@ import routes from '../../router/index'
 function Body() {
   console.log(routes)
   return (
-      <Router>
+      <Router  basename={'/photobooker-frontend/'}>
         <Switch>
           {
             routes.map((route, i) => (
