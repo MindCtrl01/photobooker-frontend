@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/photobooker-frontend/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/photobooker-frontend/static/js/main.10487521.chunk.js",
+    "main.js.map": "/photobooker-frontend/static/js/main.10487521.chunk.js.map",
+    "runtime-main.js": "/photobooker-frontend/static/js/runtime-main.0da4bce2.js",
+    "runtime-main.js.map": "/photobooker-frontend/static/js/runtime-main.0da4bce2.js.map",
+    "static/js/2.2306e2bf.chunk.js": "/photobooker-frontend/static/js/2.2306e2bf.chunk.js",
+    "static/js/2.2306e2bf.chunk.js.map": "/photobooker-frontend/static/js/2.2306e2bf.chunk.js.map",
+    "static/js/3.2c1900e1.chunk.js": "/photobooker-frontend/static/js/3.2c1900e1.chunk.js",
+    "static/js/3.2c1900e1.chunk.js.map": "/photobooker-frontend/static/js/3.2c1900e1.chunk.js.map",
+    "index.html": "/photobooker-frontend/index.html",
+    "static/css/main.2ae47eeb.chunk.css.map": "/photobooker-frontend/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.2306e2bf.chunk.js.LICENSE.txt": "/photobooker-frontend/static/js/2.2306e2bf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0da4bce2.js",
+    "static/js/2.2306e2bf.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.10487521.chunk.js"
+  ]
+}
