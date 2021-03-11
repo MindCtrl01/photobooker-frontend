@@ -23,7 +23,7 @@ jobs:
       run: 
         git config --global user.email "4evernavi242@gmail.com"
         git config --global user.name "tuananh"
-        git remote set-url origin https://MindCtrl01:${{secrets.GITHUB_TOKEN}}@github.com/MindCtrl01/photobooker-backend.git
+        git remote set-url origin https://MindCtrl01:${{secrets.Photobooker_FE}}@github.com/MindCtrl01/photobooker-backend.git
         npm run deploy
     - name: Updating Domain
       run: echo "Update domain"
