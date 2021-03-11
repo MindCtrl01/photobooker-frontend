@@ -21,11 +21,10 @@ jobs:
       run: npm install
     - name: Build Project
       run : CI='' npm run build
-    - name: Deploy to GH Pages
-      run: 
-        git config --global user.email "<me>@<gmail>.com"
-        git config --global user.name "<my_name>"
-        git remote set-url origin https://${{secrets.GITHUB_PAGE_TOKEN}}@github.com/MindCtrl01/photobooker-frontend
-        npm run deploy
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.GITHUB_PAGE_TOKEN }}
+        publish_dir: ./build
     - name: Updating Domain
       run: echo "Update domain"
