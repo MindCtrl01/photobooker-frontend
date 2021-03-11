@@ -23,6 +23,9 @@ jobs:
       run : CI='' npm run build
     - name: Deploy to GH Pages
       run: 
+        git config --global user.email "<me>@<gmail>.com"
+        git config --global user.name "<my_name>"
+        git remote set-url origin https://${{secrets.GITHUB_PAGE_TOKEN}}@github.com/MindCtrl01/photobooker-frontend
         npm run deploy
     - name: Updating Domain
       run: echo "Update domain"
