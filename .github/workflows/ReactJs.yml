@@ -1,0 +1,29 @@
+# This is a basic workflow to help you get started with Actions
+
+name: ReactJs
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x, 14.x]
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install Packages
+      run: npm install
+    - name: Deploy to GH Pages
+      run: 
+        git config --global user.email "4evernavi242@gmail.com"
+        git config --global user.name "tuananh"
+        git remote set-url origin https://62885f302fecf8f0c8434f9048661efabe90fafe@github.com/MindCtrl01/photobooker-backend.git
+        npm run deploy
+    - name: Updating Domain
+      run: echo "Update domain"
