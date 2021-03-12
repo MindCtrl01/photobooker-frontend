@@ -6,15 +6,15 @@ import routes from '../../router/index'
 function Body() {
   console.log(routes)
   return (
-      <Router>
+    <Router>
+      <div className="bg-red-300 col-span-2">
         <Switch>
-          {
-            routes.map((route, i) => (
-              <Route key={i} path={route.path} component={route.component} />
-            ))
-          }
+          {routes.map((route, i) => (
+            <Route key={i} path={route.path} component={route.component} />
+          ))}
         </Switch>
-      </Router>
+      </div>
+    </Router>
   )
 }
 
